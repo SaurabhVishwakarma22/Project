@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirQualityIN</title>
+    <link rel="stylesheet" type="text/css" href="css/hAndFoot.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="https://kit.fontawesome.com/4c23cd91aa.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Air Pollution in India</h1>
+        <h1 class="container">
+            <p>AirQualityIN</p>
+        </h1>
+
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="moreInfo.html">More Information</a></li>
+            <li><a href="about.html">About This Website</a></li>
+        </ul>
+
+        <div class="dropdown" onclick="showMenu()">
+            <i class="fas fa-bars dropbtn"></i>
+            <div class="dropdown-content">
+                <a href="index.html">Home</a>
+                <a href="moreInfo.html">More Information</a>
+                <a href="about.html">About This Website</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h1>About Air Pollution</h1>
+            <p>
+                Air pollution in India is a pressing issue, with high levels of harmful pollutants like PM2.5 and PM10 originating from sources such as vehicles, industrial emissions, crop burning, and construction activities. These pollutants pose significant health risks and harm the environment. Reducing emissions and adopting cleaner technologies is essential to improve air quality across the country.
+            </p>
+            <a href="moreInfo.html"><button>Explore More</button></a>
+        </section>
+
+        <section class="realTimeData">
+            <h1>Air Quality Index of Major Cities in India</h1>
+
+            <div class="usAQI">
+                <h3>Indian AQI Standards</h3>
+                <p>
+                    The AQI (Air Quality Index) used in India ranges from 0 to 500, with higher values indicating worse air quality. It categorizes air quality into different levels, from "Good" to "Hazardous." These categories help people understand the health impact of current air pollution levels.
+                </p>
+
+                <div>Good (0-50)</div>
+                <div>Moderate (51-100)</div>
+                <div>Unhealthy for Sensitive Groups (101-200)</div>
+                <div>Unhealthy (201-300)</div>
+                <div>Very Unhealthy (301-400)</div>
+                <div>Hazardous (401-500)</div>
+            </div>
+
+            <div class="pm25">
+                <h3>PM2.5 Levels</h3>
+                <p>
+                    PM2.5, or particulate matter smaller than 2.5 micrometers, is a critical air pollutant affecting human health. These particles penetrate deep into the lungs, leading to respiratory issues, cardiovascular diseases, and other health concerns.
+                </p>
+
+                <div>Good (0-12.0 µg/m³)</div>
+                <div>Moderate (12.1-35.4 µg/m³)</div>
+                <div>Unhealthy for Sensitive Groups (35.5-55.4 µg/m³)</div>
+                <div>Unhealthy (55.5-150.4 µg/m³)</div>
+                <div>Very Unhealthy (150.5-250.4 µg/m³)</div>
+                <div>Hazardous (250.5+ µg/m³)</div>
+            </div>
+
+
+
+        <section class="comparison">
+            <h1>IQAir World Air Quality Ranking Map 2024:</h1>
+
+            <div class="rankingMap">
+                <div class='tableauPlaceholder' id='viz1684574004228' style='position: relative'>
+                    <noscript>
+                        <a href='#'>
+                            <img alt='Interactive Map' src='https://public.tableau.com/static/images/48/485GBCN7K/1_rss.png' />
+                        </a>
+                    </noscript>
+                    
+                    <object class='tableauViz' style='display:none;'>
+                        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                        <param name='embed_code_version' value='3' /> 
+                        <param name='path' value='views/IQAirWorldAirQualityRankingMap2024/InteractiveMap?:language=en-US&amp;:embed=true' /> 
+                        <param name='toolbar' value='yes' />
+                        <param name='static_image' value='https://public.tableau.com/static/images/48/485GBCN7K/1.png' /> 
+                        <param name='animate_transition' value='yes' />
+                        <param name='display_static_image' value='yes' />
+                        <param name='display_spinner' value='yes' />
+                        <param name='display_overlay' value='yes' />
+                        <param name='display_count' value='yes' />
+                        <param name='language' value='en-US' />
+                    </object>
+                </div>
+            </div>
+            
+            <p class="rankMap">
+                The <span class="greenText">IQAir World Air Quality Ranking Map 2024</span> provides valuable insights into air quality worldwide. By comparing Indian cities with others in Asia, we can understand where India stands. PM2.5 levels in India are often elevated due to various pollution sources, with major cities ranking among the most polluted in the world. However, efforts are underway to improve air quality across the country.
+            </p>
+
+            <hr>
+
+
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 AirQualityIN. All rights reserved. Designed by Sourabh Vishwakarma</p>
+    </footer>
+
+    <script type="text/javascript" src="https://widget.iqair.com/script/widget_v3.0.js"></script>
+    <script type="text/javascript" src="javascript/hAndFoot.js"></script>
+    <script type="text/javascript" src="javascript/index.js"></script>
+</body>
+</html>
